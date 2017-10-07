@@ -15,6 +15,7 @@
     int LED_G2=6; 				//define pin for GREEN Channel 2
     int LED_B2=3; 				//define pin for BLUE Channel 2
     int standard_pin=1234;		//define BT Pairing PIN (if needed)
+    char btname[]="LEDcon";		//define bluetooth name
     int red;
     int green;
     int blue;
