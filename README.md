@@ -5,7 +5,7 @@ BLE RGB LED PWM Controller
 
 This is a simple DIY Arduino based RGB LED PWM Controller used to control LEDs like RGB Strips via Bluetooth using an HC-05 module.
 It uses a serial connection via bluetooth to recieve rgb data to display on the LEDs.
-I used a Arduino Nano in the final circuit (as it has 6 PWM outputs suitable to drive to independent RGB Stripes), diagram is using a digispark-board (ATtiny85 based arduino compatible). You can switch out the digispark with every boasrd you want, just remember to change Pins in the code.
+I used a Arduino Nano in the final circuit (as it has 6 PWM outputs suitable to drive two independent RGB Stripes), diagram is using a digispark-board (ATtiny85 based arduino compatible). You can switch out the digispark with every boasrd you want, just remember to change Pins in the code.
 
 ## Circuit Diagram
 ![schematics](LEDcon_circuit_diagram.png?raw=true "circuit diagram")
