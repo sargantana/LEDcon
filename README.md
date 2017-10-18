@@ -2,4 +2,4 @@
 BLE RGB LED PWM Controller
 
 ## Circuit Diagram
-![Alt text](img/LEDcon_circuit_diagram.png)
+![Alt text](LEDcon_circuit_diagram.png)
