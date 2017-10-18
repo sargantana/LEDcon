@@ -31,7 +31,7 @@ I used a Arduino Nano in the final circuit (as it has 6 PWM outputs suitable to 
 * __Arduino compatible board__ (i.e. digispark, arduino nano, arduino pro, teensy etc)
 * __Bluetooth Serial Module__ (*HC-06* or *HC-05* should both work, only tested with HC-05
 * __3x n-Channel MOSFETs__ (I used STP55NF06L 60V@55A as found on RAMPS 1.4 board)
-   > *the use of mosfets depends on the amount of LEDs you want to drive. If you want to drive a single RGB LED or two the current provided by arduino should be sufficient*
+   > *the use of mosfets depends on the amount of LEDs you want to drive. If you want to drive a single RGB LED the current provided by arduino should be sufficient. Don't exceed the recommended max per pin!!*
 * __DC in barrel jack__
 * __Sufficient PSU >=12V__ 
   > *the voltage regulator used on arduino boards differ a lot. Check the datasheet to ensure your board can handle your voltage. Depending on your board you may even consider a laptop power brick, but remember this circuit is designed for use at 12V*
