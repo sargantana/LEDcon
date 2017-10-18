@@ -1,5 +1,5 @@
 # LEDcon
-BLE RGB LED PWM Controller
+BLE RGB LED PWM Controller based on arduino and hc-05 serial bluetooth board
 
 
 ## What is this?
