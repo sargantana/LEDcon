@@ -1,26 +1,29 @@
 # LEDcon
 BLE RGB LED PWM Controller
 
-# Status
-- [x] Finish circuit desgin
-- [x] Finish initial code
-- [x] Build PCB
-- [ ] Build Android App to interface LEDcon                             
-> ████████░░░░░░░░░░░░40% finished
-- [ ] Finished Coding to ensure compatibility with different boards     
-> ████████████░░░░░░░░60% finished
-- [ ] Test all the possible configurations
-- [ ] Finish PCB design to order                                        
-> ██████████████░░░░░░70% finished
+
 ## What is this?
 
 This is a simple DIY Arduino based RGB LED PWM Controller used to control LEDs like RGB Strips via Bluetooth using an HC-05 module.
 It uses a serial connection via bluetooth to recieve rgb data to display on the LEDs.
 I used a Arduino Nano in the final circuit (as it has 6 PWM outputs suitable to drive two independent RGB Stripes), diagram is using a digispark-board (ATtiny85 based arduino compatible). You can switch out the digispark with every board you want, just remember to change Pins in the code.
 
-## Circuit Diagram
-![schematics](LEDcon_circuit_diagram.png?raw=true "circuit diagram")
+# Status
+- [x] Finish circuit desgin
+- [x] Finish initial code
+- [x] Build PCB
+- [ ] Build Android App as eyecandy interface for LEDcon                             
+> ████████░░░░░░░░░░░░40% finished
+- [ ] Finished Coding to ensure compatibility with different boards     
+> ████████████░░░░░░░░60% finished
+- [ ] Test all the possible configurations
+- [ ] Finish PCB design to order                                        
+> ██████████████░░░░░░70% finished
 
+## Circuit Diagram
+Arduino Nano | Digispark
+------------ | -------------
+![schematics](/img/Arduino_Nano_Circuit.png?raw=true "Reference Circuit for Arduino Nano") | ![schematics](/img/Digispark_Circuit.png?raw=true "Reference Circuit for Digispark")
 
 ## Hardware
 
