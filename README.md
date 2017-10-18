@@ -8,7 +8,7 @@ BLE RGB LED PWM Controller
 - [ ] Build Android App to interface LEDcon                             
 > ████████░░░░░░░░░░░░40% finished
 - [ ] Finished Coding to ensure compatibility with different boards     
-> [████████████░░░░░░░░]60% finished
+> ████████████░░░░░░░░60% finished
 - [ ] Test all the possible configurations
 - [ ] Finish PCB design to order                                        
 > ██████████████░░░░░░70% finished
