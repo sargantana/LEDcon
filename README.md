@@ -5,11 +5,13 @@ BLE RGB LED PWM Controller
 - [x] Finish circuit desgin
 - [x] Finish initial code
 - [x] Build PCB
-- [ ] Build Android App to interface LEDcon                             [████████░░░░░░░░░░░░]40% finished
-- [ ] Finished Coding to ensure compatibility with different boards     [████████████░░░░░░░░]60% finished
+- [ ] Build Android App to interface LEDcon                             
+> ████████░░░░░░░░░░░░40% finished
+- [ ] Finished Coding to ensure compatibility with different boards     
+> [████████████░░░░░░░░]60% finished
 - [ ] Test all the possible configurations
-- [ ] Finish PCB design to order                                        [██████████████░░░░░░]70% finished
-
+- [ ] Finish PCB design to order                                        
+> ██████████████░░░░░░70% finished
 ## What is this?
 
 This is a simple DIY Arduino based RGB LED PWM Controller used to control LEDs like RGB Strips via Bluetooth using an HC-05 module.
