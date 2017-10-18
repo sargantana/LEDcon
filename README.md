@@ -1,6 +1,15 @@
 # LEDcon
 BLE RGB LED PWM Controller
 
+# Status
+- [x] Finish circuit desgin
+- [x] Finish initial code
+- [x] Build PCB
+- [ ] Build Android App to interface LEDcon                             [████████............]40% finished
+- [ ] Finished Coding to ensure compatibility with different boards     [████████████........]60% finished
+- [ ] Test all the possible configurations
+- [ ] Finish PCB design to order                                        [██████████████......]70% finished
+
 ## What is this?
 
 This is a simple DIY Arduino based RGB LED PWM Controller used to control LEDs like RGB Strips via Bluetooth using an HC-05 module.
@@ -34,4 +43,4 @@ The following components are not explicit neccessary, but highly recommended to 
 * __electrolytic capacitor C1__ (I used 2200uF @ 16V)
 * __3x Resistors R-FET__ (using STP55NF06L I recommend 120Ω. You could also enhance the circuit with pulldown/-up resistors.)
 * __Voltage divider__ (I used 1kΩ as R-Tx and 2kΩ as R-GND)
-  > *the voltage divider simply consists of two resitros, while the one connected to ground has the doubled value of the first one bridging the Arduino Tx and HC-05 Rx pin, as this is designed to use with 3.3v the voltage divider knocks that 5v logic signal down. For further informatiojn on voltage dividers visit: https://learn.sparkfun.com/tutorials/voltage-dividers *
+  > *the voltage divider simply consists of two resitros, while the one connected to ground has the doubled value of the first one bridging the Arduino Tx and HC-05 Rx pin, as this is designed to use with 3.3v the voltage divider knocks that 5v logic signal down. For further informatiojn on voltage dividers visit: https://learn.sparkfun.com/tutorials/voltage-dividers*
